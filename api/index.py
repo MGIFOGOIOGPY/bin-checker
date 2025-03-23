@@ -2,6 +2,9 @@ from flask import Flask, request, jsonify
 import logging
 import subprocess
 import threading
+import telebot
+from telebot import types
+import requests
 
 app = Flask(__name__)
 
